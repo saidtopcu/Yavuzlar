@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    
+    <link rel="shortcut icon" href="assets/img/icon/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/fonts/flaticon/flaticon.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Blog Title</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="blog-post-wrapper py-5">
+        <div class="container">
+            <div class="blog-post-container">
+                <h2 class="mb-4">Blog</h2>
+                <div class="row">
+                    <!-- Repeat the following block for each blog post -->
+                    <div class="col-md-6 mb-4">
+                        <div class="card">
+                            <img src="assets/img/thumbnail.png" alt="" class="card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Lorem ipsum dolor</h5>
+                                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum esse eveniet atque, labore rem in neque veniam ipsa cumque non earum eligendi necessitatibus sint. Officia minus culpa inventore a labore?</p>
+                                <ul class="list-inline mb-0">
+                                    <li class="list-inline-item">1 January 2020</li>
+                                    <li class="list-inline-item">·</li>
+                                    <li class="list-inline-item">4 minute</li>
+                                    <li class="list-inline-item">·</li>
+                                    <li class="list-inline-item">Name Surname</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End of blog post block -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-light py-5">
+        <div class="container-fluid">
+            <hr>
+        </div>
+        <div class="container text-center mt-4">
+            <div class="text-muted">&copy; 2021 All rights reserved.</div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap bundle with Popper.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/* Custom styles for the blog posts */
+.custom-title-style {
+    font-size: 24px;
+    font-weight: bold;
+    color: #FF5733; /* Custom color for the title */
+}
+
+.custom-description-style {
+    font-size: 16px;
+    color: #444; /* Custom color for the description */
+}
+
+.custom-meta-style {
+    font-size: 14px;
+    color: #666; /* Custom color for the meta information */
+}
+
+.custom-dot-style {
+    margin: 0 4px;
+    color: #777; /* Custom color for the dots in the meta information */
+}
+
+/* Add custom styles for the blog post section */
+
+.blog-post-wrapper {
+    background-color: #f9f9f9;
+}
+
+.blog-post-container {
+    padding: 30px 0;
+}
+
+.blog-post-top-title {
+    text-align: center;
+}
+
+.blog-post-thumbnail img {
+    transition: transform 0.2s ease-in-out;
+}
+
+.blog-post-thumbnail img:hover {
+    transform: scale(1.1);
+}
+
+.custom-title-style {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+.custom-description-style {
+    color: #666;
+}
+
+.custom-meta-style {
+    color: #888;
+}

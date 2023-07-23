@@ -1,0 +1,98 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding: 40px;
+  width: 350px;
+  max-width: 90%;
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.inputBox {
+  position: relative;
+  margin-bottom: 25px;
+}
+
+.inputBox input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  background-color: #f7f7f7;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  transition: border-color 0.3s;
+}
+
+.inputBox label {
+  position: absolute;
+  top: 14px;
+  left: 12px;
+  color: #888;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.inputBox input:focus,
+.inputBox input:valid {
+  border-color: #e67e22;
+}
+
+.inputBox input:focus + label,
+.inputBox input:valid + label {
+  top: 8px;
+  left: 10px;
+  font-size: 14px;
+  color: #e67e22;
+}
+
+input[type="submit"] {
+  background-color: #e67e22;
+  color: #fff;
+  font-size: 16px;
+  border: none;
+  border-radius: 4px;
+  padding: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+  background-color: #d35400;
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.links a {
+  color: #3498db;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #1c6ea4;
+}
